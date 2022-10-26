@@ -1,0 +1,351 @@
+*{
+    font-family: Arial;
+}
+/* ----------------header----------------- */
+header{
+    color: rgb(255, 255, 255);
+    background-color: #ee4545;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+/* -----------------menu----------------- */
+.menu ul{
+    background-color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    text-align: center;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    margin: 20px;
+}
+.menu ul a {
+    color: black;
+}
+.menu ul div h4{
+    margin: 0;
+    color: black;
+}
+.background-for-img{
+    background:
+        linear-gradient(298.2deg,
+        rgba(251, 90, 0, 0.2)
+        28.63%, rgba(0, 0, 0, 0)
+        96.07%, rgba(249, 229, 57, 0.108)
+        96.07%), #FFC632;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+.pet-food-text{
+    position: absolute;
+    width: 475px;
+    height: 317px;
+    left: 315px;
+    top: 476px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+}
+.knopka1{
+    position: absolute;
+    width: 200px;
+    background: #F63D3D;
+    box-shadow: 0px 0px 20px rgba(246, 61, 61, 0.7);
+    border-radius: 110px;
+    text-align: center;
+}
+.knopka2{
+    position: absolute;
+    width: 200px;
+    left: 222px;
+    border: 2px solid #f63d3db3;
+    border-radius: 110px;
+    text-align: center;
+    color: #fff;
+}
+.knopka1  h3{
+ color: #fff;
+}
+.knopka2  h3{
+    color: #ee4545;
+}
+a{
+    text-decoration: none;
+}
+.img1{ 
+    position: absolute;
+    width: 540px;
+    height: 1091px;
+    left: 1072px;
+    top: 291px;
+    background: url(img/image\ 1.png) no-repeat;
+}
+.img3{
+    position: absolute;
+    width: 718px;
+    height: 852px;
+    left: 1170px;
+    top: 670px;
+    background: url(img/image\ 3.png) no-repeat;
+}
+/* круг */
+.img4{ 
+    position: absolute;
+    width: 970px;
+    height: 1000px;
+    left: 944px;
+    top: 292px;
+    /* если поплывет то трогат тут */
+    background: url(img/Ellipse\ 4.png) no-repeat;
+    background-blend-mode: color;
+    mix-blend-mode: normal;
+    opacity: .5;
+}
+.img2-2{
+    position: absolute;
+    width: 843px;
+    height: 987px;
+    left: 968px;
+    top: 189px;
+    background: url(img/image\ 22.png);
+    background-blend-mode: color;
+    mix-blend-mode: normal;
+    opacity: 0.3;   
+}
+.dog-in-the-heart{
+    text-align: center;
+    padding: 50px 0 0 0px;
+    background-color: rgb(218, 218, 218);
+}
+.dog-in-the-heart h1{
+    text-align: center;
+    color: #ee4545;
+}
+.dog-in-the-heart h1 span{
+    color: #000;
+}
+/* ---------------------------3items------------------------ */
+.three-items{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.suport h3, .truck h3, .security h3{
+    color: #F63D3D;
+}
+p{
+    font-size: 25px;
+    padding: 20px;   
+}
+.suport img{
+    background: rgba(0, 34, 156, 0.1);
+    border-radius: 8px;
+}
+
+.truck img{
+    background: rgba(152, 80, 197, 0.25);
+    border-radius: 8px;
+}
+.security img{
+    background: rgba(0, 34, 156, 0.1);
+    border-radius: 8px;
+}
+/* ---------------------------------------------------------- */
+.Top-categories h1{
+    color: #ee4545;
+    text-align: center;
+    font-size: 40px;
+}
+.Top-categories span{
+    color: #000;
+}
+
+.four-items{
+    display: flex;
+    text-align: center;
+    margin: 50px 220px 20px 150px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.viral-care{
+    display: flex;
+    margin: 5% 10% 5% 15%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+.viral-care1{
+    margin-top: 80px;
+}
+.Best_Seller h1{
+    text-align: center;
+    color: #ee4545;
+    padding-bottom: 50px;
+    font-size: 40px
+}
+.Best_Seller h1 span{
+    color: #000;
+}
+.Best-Seller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 300px 50px 300px;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.Best-Seller-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Best-Seller-Container-Raiting {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.Best-Seller h4 {
+    color: #ee4545;
+    margin-top: 0px;
+}
+.Best-Seller h3 a{
+    color: #000;
+}
+.eshe-odin-fon{
+    position: absolute;
+    width: 1600px;
+    height: 599px;
+    left: 170px;
+    top: 3378px;
+}
+.catyara{
+    position: absolute;
+    width: 849px;
+    height: 623px;
+    left: 44px;
+    top: -25px;
+}
+.text-okolo-cata{
+    position: absolute;
+    width: 478px;
+    height: 550px;
+    left: 1085px;
+    top: 3530px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    text-transform: capitalize;
+}
+/* -------------------------------------------- */
+.Popular-Brands{
+    margin-top: 700px;
+    color: #ee4545;
+    text-align: center;
+    font-size: 20px;
+}
+.Popular-Brands span{
+    color: #000;
+}
+.Brands{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+/* ------------------------------------------------------ */
+
+.before-footer{
+    text-align: center;
+    margin-top: 100px;
+    background: url(img/Large-image-text.png) no-repeat;
+    height: 500px;
+    margin: 50px 10% 50px 10%;
+}
+.before-footer span{
+    color: #ee4545;
+}
+.before-footer h1{
+    font-size: 45px;
+}
+.before-footer-text{
+    position: absolute;
+    left: 37%;
+    margin-top: 120px;
+}
+.before-footer-text div{
+    left: 30%;
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------------ */
+footer{
+    width: 100%;
+    height: 488px;
+    background-color: #F63D3D;
+    margin-top: 103px;
+}
+
+.footer__block{
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    margin-left: 215px;
+}
+
+.footer__lists{
+    display: flex;
+    justify-content: space-between;
+    width: 1016px;
+}
+
+.footer__lists ul{
+    padding: 0;
+
+}
+
+.footer__lists li{
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 39px;
+    
+}
+
+.footer__lists a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__lists p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.footer__lists div{
+    margin-right: 47px;
+}
+
+.footer__logo{
+    margin-right: 47px;
+    margin-top: -150px;
+}
